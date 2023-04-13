@@ -25,6 +25,10 @@ body{
     transform: rotate(-20deg);
 }
 
+.container.show-nav .circle {
+    transform: rotate(-70deg);
+}
+
 .container.show-nav + nav li {
     transform: translateX(0);
     transition-delay: 0.3s;
@@ -114,6 +118,7 @@ nav ul li {
 nav ul li i {
     font-size: 20px;
     margin-right: 10px;
+    letter-spacing: 4px;
 }
 
 nav ul li + li {
